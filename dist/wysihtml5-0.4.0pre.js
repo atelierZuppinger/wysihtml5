@@ -1,9 +1,9 @@
 /*
 ---
 
-name: wysihtml5
+name: wysihtml5-0.4
 description: wysihtml5 for mootools kamicane packager
-provides: wysihtml5
+provides: wysihtml5-0.4
 
 ...
 */
