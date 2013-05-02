@@ -1,3 +1,13 @@
+/*
+---
+
+name: wysihtml5
+description: wysihtml5 for mootools kamicane packager
+provides: wysihtml5
+
+...
+*/
+
 /**
  * @license wysihtml5 v0.4.0pre
  * https://github.com/xing/wysihtml5

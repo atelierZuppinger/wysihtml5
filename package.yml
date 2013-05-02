@@ -1,0 +1,7 @@
+name: wysihtml5
+current: 0.4.0pre
+license: MIT
+description: Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+
+sources:
+  - dist/wysihtml5-0.4.0pre.js
