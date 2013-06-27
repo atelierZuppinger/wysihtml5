@@ -1,3 +1,13 @@
+/*
+---
+
+name: wysihtml5-0.3
+description: wysihtml5 for mootools kamicane packager
+provides: wysihtml5-0.3
+
+...
+*/
+
 /**
  * @license wysihtml5 v0.3.0
  * https://github.com/xing/wysihtml5
@@ -8269,7 +8279,7 @@ wysihtml5.views.View = Base.extend(
         "-webkit-border-bottom-right-radius", "-moz-border-radius-bottomright", "border-bottom-right-radius",
         "-webkit-border-bottom-left-radius", "-moz-border-radius-bottomleft", "border-bottom-left-radius",
         "-webkit-border-top-left-radius", "-moz-border-radius-topleft", "border-top-left-radius",
-        "width", "height"
+        "width"
       ],
       /**
        * Styles to sync while the window gets resized
