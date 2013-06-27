@@ -23,8 +23,6 @@ Element.implement({
 
   },
   autoResizeY: function() {
-    var body = this.getContent();
-    console.log( body.clientHeight, body.scrollHeight, body.offsetHeight);
     var bodyHeight = this.getContent().scrollHeight;
     this.setStyle('height', bodyHeight);
     return this;

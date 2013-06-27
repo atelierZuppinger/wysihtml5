@@ -4,6 +4,8 @@
 name: wysihtml5-0.4
 description: wysihtml5 for mootools kamicane packager
 provides: wysihtml5-0.4
+requires: 
+  - More/URI
 
 ...
 */
@@ -6892,12 +6894,21 @@ wysihtml5.commands.bold = {
       } else {
         // Create links
         value = typeof(value) === "object" ? value : { href: value };
+        value.target = this.isLocal(value.href) ? '_self' : '_blank';
         _format(composer, value);
       }
     },
 
     state: function(composer, command) {
       return wysihtml5.commands.formatInline.state(composer, command, "A");
+    },
+
+    isLocal: function(url) {
+        var goTo = new URI(url),
+            location = new URI(window.location.href);
+
+        return goTo.get('host') == location.get('host');
+
     }
   };
 })(wysihtml5);/**
