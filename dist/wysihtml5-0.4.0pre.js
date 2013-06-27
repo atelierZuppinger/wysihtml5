@@ -8321,7 +8321,7 @@ wysihtml5.views.View = Base.extend(
         "-webkit-border-bottom-right-radius", "-moz-border-radius-bottomright", "border-bottom-right-radius",
         "-webkit-border-bottom-left-radius", "-moz-border-radius-bottomleft", "border-bottom-left-radius",
         "-webkit-border-top-left-radius", "-moz-border-radius-topleft", "border-top-left-radius",
-        "width", "height"
+        "width"
       ],
       ADDITIONAL_CSS_RULES = [
         "html                 { height: 100%; }",

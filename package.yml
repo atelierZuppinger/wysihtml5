@@ -5,3 +5,4 @@ description: Modernizr is a JavaScript library that detects HTML5 and CSS3 featu
 
 sources:
   - dist/wysihtml5-0.4.0pre.js
+  - src/resize/wysihtml5-resize.js
